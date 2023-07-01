@@ -23,21 +23,6 @@ pipeline {
  }
 
 stages {
-
-    stage ('checkout code from SCM'){
-
-     steps{   
-
-
-
-         git branch: 'master', url: 'https://github.com/devopstrainers1/addressbook.git'
-
-
-
-      }
-
-    }
-
     stage ('Cleaning'){
 
         steps{
