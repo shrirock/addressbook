@@ -4,7 +4,7 @@ pipeline {
 
      node {
 
-         label 'master'
+         label 'ajay'
 
      }
 
